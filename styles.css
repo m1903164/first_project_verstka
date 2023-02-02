@@ -2,6 +2,10 @@ body {
     background-color: #F1F1F1;
 }
 
+.header {
+    margin-bottom: 70px;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -19,6 +23,7 @@ body {
 .header_top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .btn_log {
@@ -27,4 +32,170 @@ body {
     border: 0;
     color: #CC9933;
     margin-top: 16px;
+    background-image: url(./assets/arrow.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding: 0px;
+
+}
+
+.header_low {
+    background-color: white;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin-left: 45px;
+}
+
+.list_items {
+    margin-right: 45px;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.header_btn {
+    margin-right: 45px;
+}
+
+.btn_1 {
+    width: 107px;
+    height: 42px;
+    margin-right: 40px;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.btn_2 {
+    width: 177px;
+    height: 42px;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.title {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+
+    margin-left: 40px;
+
+    color: #333333;
+}
+
+.offer_img {
+    margin-bottom: 70px;
+}
+
+.darken {
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%);
+    border-radius: 15px;
+}
+
+.first_img {
+    width: 573px;
+    height: 258px;
+    background-image: url(./assets/Rectangle\ 14.png);
+}
+
+.first_item {
+    margin-left: 45px;
+    padding-top: 40px;
+}
+
+.first_title {
+    margin-top: 0px;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+}
+
+.first_price {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    margin-bottom: 47px;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.first_btn {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    border-color: ;
+
+    color: #F0BF5F;
+}
+
+.text {
+    width: 888px;
+    height: 192px;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    /* or 32px */
+
+
+    color: #000000;
+}
+
+.service_list {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+}
+
+.list_item {
+    width: 573px;
+    height: 330px;
+
+    margin-right: 24px;
+
+    background-color: white;
+    border-radius: 15px;
+    background-image: url(./assets/10.png);
+    background-repeat: top;
+    background-repeat: no-repeat;
+}
+
+.items {
+    padding-top: 190px;
+    padding-left: 45px;
+    padding-bottom: 36px;
 }
