@@ -1,0 +1,30 @@
+body {
+    background-color: #F1F1F1;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.header_top_logo {
+    margin-right: 40px;
+}
+
+.header_top_left {
+    display: flex;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_log {
+    width: 155px;
+    height: 24px;
+    border: 0;
+    color: #CC9933;
+    margin-top: 16px;
+}
